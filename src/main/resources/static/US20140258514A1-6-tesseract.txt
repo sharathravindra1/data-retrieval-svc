@@ -1,0 +1,22 @@
+Patent Application Publication ~~ Sep. 11, 2014 Sheet 6 of 7 US 2014/0258514 A1
+REQ
+( SERVICE Ne 8 TARGET
+N 620 J DEVICE
+~~ 610
+U-D-NET SS
+602 ~~ TARGET
+MEDIA DELIVERY a DATA
+SYSTEM 612
+615
+Pp _— TS REQ
+(Paneer Re Neos
+DATA | wo ~
+Se pm
+hN pd
+~. _
+-— 610
+U-D-NET \
+602 -
+MEDIA DELIVERY
+SYSTEM
+615

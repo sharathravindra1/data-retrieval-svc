@@ -1,0 +1,7 @@
+US 2014/0258514 A1
+mation, then the target data is generated with the desired
+characteristics specified by the profile information by per-
+forming conversion or configuration processes on data from
+the media source. The processes identified in this step may
+accommodate any one of a variety of media 
+ ************* Trial Licenses ************* 

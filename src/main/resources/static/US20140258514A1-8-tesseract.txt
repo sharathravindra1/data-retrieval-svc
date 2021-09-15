@@ -1,0 +1,69 @@
+US 2014/0258514 Al Sep. 11,2014
+1
+MEDIA DELIVERY SYSTEM AND METHOD screen display on a cell phone is typically too small to render
+FOR TRANSPORTING MEDIA TO DESIRED images from a digital camera, even if the cell phone is cam-
+TARGET DEVICES era-enabled. Often, the result is that when users want to share
+data amongst connected devices, that user must perform
+RELATED APPLICATIONS numerous manual steps, such as manually converting data
+. Lo . . . formats.
+[0001] This application is a Continuation of U.S. applica- . . .
+tion Ser. No. To 18L filed Sep. 12, 2006, titled MEDIA [0006] Bven as various computer and electronic devices
+DELIVERY SYSTEM AND METHOD FOR TR ANSPORT- increase their functionality, their hardware components, envi-
+ING MEDIA TO DESIRED TARGET DEIVCES. which is a ronment and form-factor become limitations that need to be
+. Co. . L accounted for when devices are sought to operate with one
+continuation-in-part of the following, co-pending U.S. Patent . .
+Applications: U.S. patent application Ser. No. 10/888,606, another. For example, many devices are capable of rendering
+entitled “System and Method for Enabling the Establishment or playing back rich media (e.g. music or video), but th ose
+» ; . devices have different levels of suitability for these functions.
+of a Personal Network,” filed Jul. 9, 2004; U.S. patent appli- F 1 1 oh h ic ol fi
+cation Ser. No. 10/888,633, entitled “System and Method for of example, a cel phohie ay ave a IMUSIC player soltware
+Combining Memory Resources for Use on a Personal Net- application, but limited speaker output for truly enjoyable
+work,” filed Jul. 9, 2004; and U.S. patent application Ser. No. music listening experience. As another example, cellular
+10/888,745, entitled “System and Method for Remotely Con- phones with cameras are common and widely u sed, but their
+trolling Network Resources,” filed Jul. 9, 2004, now U.S. Pat. images are not as good as devices that are primarily digital
+No. 7,937,484; application Ser. No. 11/531,182 also claims cameras.
+priority to provisional U.S. Provisional Application No.
+60/718,119, filed on Sep. 16, 2003, entitled MEDIA DELIV- BRIEF DESCRIPTION OF THE DRAWINGS
+ERY SYSTEM AND METHOD FOR TRANSPORTING [0007] FIG. 1is an illustration of a system or technique for
+MEDIA TO DESIRED TARGET DEVICES. All of the afore- transmitting target data corresponding to media to a target
+mentioned priority applications are hereby incorporated by location or device, under an embodiment of the invention.
+reference in their entirety for all purposes. [0008] FIG. 2 illustrates a method for transmitting target
+data corresponding to media to a target device using profile
+TECHNICAL FIELD information associated with that device, under an embodi-
+[0002] The disclosed embodiments relate generally to the ment of the Invention. CL .
+field of media content delivery over networks. [0009] FIG. 3 illustrates a method for providing media from
+auser’s defined network to a target device, under an embodi-
+BACKGROUND ment of the invention.
+[0010] FIG. 4 illustrates an architecture for delivering
+[0003] There are an increasingly large number of devices media from various sources to a target, under an embodiment
+that have network connectivity. Over the years, network con- of the invention.
+nectivity has been extended to appliances such as refrigera- [0011] FIG. 5 illustrates a method for re-streaming media
+tors, home entertainment centers, and interactive box sets for streams from external sources to targets, under an embodi-
+use with television sets, digital cameras, and cell phones. ment of the invention.
+With the evolution of these devices, there have been develop- [0012] FIGS. 6A-6D illustrate techniques by which target
+ments in home networks. For example, WiFi technology data may be transmitted to a target, under one or more
+enables users to interconnect various network enabled embodiments of the invention.
+devices wirelessly to form their own local area network. Vari-
+ous services and applications currently exist with the goal of DETAILED DESCRIPTION
+establishing data connectivity between different network
+locations. The growth of the Internet and other types of net- [0013] Embodiments described in this application provide
+works has contributed to the numerous networking applica- the ability for a user to take media from any one of many
+tions that currently exist. sources and deliver media from that source to a selected target
+[0004] There is also an interest in extending network con- device or location in a form that is suited for that device or
+nectivity to devices that can roam. These devices include cell location. One or more embodiments described herein enable
+phones, personal digital assistants (PDAs), and stations that data corresponding to that media to be generated which is
+can be assembled on vehicles or airplanes. While wireless suitable or even optimal for a target device or location, when
+networks for such roaming devices exist, these networks tend the media in its native form is actually not suitable for the
+to have limited bandwidth, and can be expensive. In addition, target. As such, target data corresponding to media may be
+it is difficult for operators of such devices to interact with generated and delivered to the target to accommodate capa-
+networks, given that these devices often have poor user-inter- bilities and limitations of the target. Examples of the limita-
+face features, and limited processing/memory resources for tions and capabilities that may need to be accounted for in
+tasks that are often desired from them. generating the target data include the available bandwidth of
+[0005] Currently, there are various interoperability issues the target; the target’s processing and/or memory resources;
+when different types of network enabled devices are coupled. the applications involved in handling media on the target,
+Often, the different devices operate on incompatible plat- including web browser or media player; the display size or
+forms or operating systems. This can cause problems in how resolution of the target; and audio hardware on the target.
+these devices share data with one another. Furthermore, con- [0014] Embodiments described herein provide that media
+nected devices may use different data types (WAV versus received or maintained on a network enabled system of a user
+MPEG) and/or data formats that hinder the user’s ability to may be transported across one or more networks to a desired
+share data amongst devices. As an example, the size of the target device or location. Any form of digital media is con-

@@ -1,0 +1,8 @@
+US 2014/0258514 A1
+have access to a library of conversion processes for changing
+the data type of the streaming data 476.
+[0072]  As described, the external media sources 431, 433
+may correspond to any source of media data that resides
+outside of the local environment which interconnects ESH
+470 and
+ ************* Trial Licenses ************* 

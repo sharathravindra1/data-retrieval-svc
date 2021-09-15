@@ -1,0 +1,65 @@
+US 2014/0258514 Al Sep. 11,2014
+8
+have access to a library of conversion processes for changing [0072] As described, the external media sources 431, 433
+the data type of the streaming data 476. may correspond to any source of media data that resides
+[0068] Following the determination of step 540, another outside of the local environment which interconnects ESH
+determination 560 may be made as whether the transmission 470 and the media delivery system 410. Furthermor e, the
+size is within the range specified in the profile information external media sources 431,433 may be subject to third-party
+427. With streaming media, the transmission size may corre- ownership and/or control. In order to optimize per formance,
+spond to a bit rate, which is a product of the frame quality and the ESH 470 may connect to the Intemet using a high-speed
+the frame rate. In a typical application, the media source Internet connection (eg. T1 or DSL).
+provides media of high-quality, such as comparable to Com- [0073] In one embodiment, ESH 470 buffers and forwards
+pact Disc or DVD playback. Such data may be provided at the streaming data 476 to the media delivery system without
+high bit-rates (e.g. 1.5 MB/second). To accommodate this alteration or change. As implemented with such an embodi-
+much data, ESH 470 may include a large buffer that commu- ment, the properties of streaming data 476 are not relevant to
+nicates with responsive processing resources to move data the operation of the ESH 470. Within the media delivery
+from the buffer to the media delivery system 410. However, system 410, the determination module 412 may inspect the
+the target may not be capable of receiving the transmission at streaming data 476 to determine the properties of the media
+the same bit rate. If the determination is that reduction is stream 475.
+needed, step 570 may provide for the reducer to reduce the [0074] Depending on design implementations, embodi-
+overall bit rate. In one embodiment, the reducer 414 may ments of the invention may provide numerous buffers, cache,
+lower the bit rate by lowering the frame quality or by lowering ~~ Or other memory resources that may be used throughout the
+the frame rate. The profile information 427 may specify asto ~~ media delivery system 410 to store processed or to-be pro-
+whether reduction should be performed with a setting of high ~~ cessed media data 425 for delivery to the targets. For
+quality frames and low frame rates, high frame rates and low example, in one scenario, a specific media file may be con-
+quality frames, or a setting in between. This setting may beset ~~ verted and configured for delivery to the target in a first
+by user preference, target device capabilities or limitations, instance. A copy of the configured or converted media may be
+and/or communication channel bandwidth or congestion. stored in cache or other emory so he ex request for that
+. . . . media source avoids performance of the processes in the
+[0069] Media stream 475 may include audio and/or video. : . . ]
+In one embodiment, a determination is made in step 580 as to door date my Rather, he op priaicly con
+whether the media stream 475 includes image data, either in wise, while streaming data from external sources may be
+eet he determin modu 413 delivered to the targets concurrently or in near real-time, an
+through inspection of streaming data 476. If image data is embodiment contemplates the streaming data being stored or
+contained, then profile information 427 may be used to deter- buffered for delayed transmission to the target. tor example,
+mine in sip 585 whether the image data is sized appropriately the ns ho 0 the target ay be delayed ad the u . CS
+for a display of the target. This includes determining whether is RA d taking a phone J or for other reasons. ’
+the lines of resolution and display dimensions of target device [0075] Transmission to Target
+420 can accommodate the entire span required by the image . . & .
+data in the media stream 475. If the image data is not sized [0076] As described herein, the target that recetves target
+correctly, the image data in the streaming data 476 may be data from the media delivery system may be machine, device
+resized in step 590. The display sizer component 415 may or network location. In one embodiment, the media delivery
+re-size the image data (usually to reduce the dimension or system 410 may be implemented to transfer data to any type
+resolution). If no image data is contained in the media stream of target. One type of target for target data provided by the
+475, or if the image data is sized correctly, no action is taken media delivery system 410 is a roaming device. A roaming
+on the image data. device may correspond to a device that is network enabled
+] ] while being mobile, so that is has physical locations and can
+[0070] Instep 595, the target data is transmitted. In the case use different network connections to connect to the Internet.
+Where the ne data corresponds o media Sean the An example of a roaming device is a smart cellular phone, a
+get aata 1s streamed to the target. As described, personal digital assistant with network capabilities (e.g. WiFi
+embodiments of the invention provide that the media delivery or cellular), or a laptop computer that is used with Hot Spots
+system 410 performs its operations on incoming media or other locations of Internet connectivity.
+str cams 475 in an on-the-fly or r esponsive manner. Thus, the [0077] FIG. 6A illustrates an embodiment for transferring
+deter eon ‘nodule 4 12 may inspect the exter wal media target data 612 directly to a target that is a device 610, such as
+rn 475 In he compet docs rp. gh; 111 612 2 pret es
+ing configurations, NY sions andalterations to the external one embodiment, the request 608 is made to a network service
+media data may be performed while the original stream is : :
+being received. The affect i hat the EST 470 and the media nas access (a portions of the user-defined network
+delivery system 410 combine to receive media streams and to accessible to the target device through use of a browser or
+re-stream’” the media streams to the targets. other web-enabled component. For example, the service 620
+[0071] Furthermore, under an embodiment, the reception may be provided through selectable iconic representation on
+of the media streams 475 from the external media sources a GUI of the target device, the selection of which corresponds
+431, 433 may be performed concurrently while the re-stream- to the web browser activating a URL to the service. In turn, the
+ing to the targets takes place. Thus, it is possible for the media service 620 gains access to the user-defined network 602 (or
+delivery system 410 to re-stream media stream 475 in near other network enabled system of the user) using a network
+real-time. such as the Internet. In one embodiment, the service 620

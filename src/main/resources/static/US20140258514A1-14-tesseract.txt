@@ -1,0 +1,66 @@
+US 2014/0258514 Al Sep. 11,2014
+7
+420, then the formatting component 416 may be used to nication link, such as through a WiFi connection, over a LAN
+convert the data format. Implementation of the formatting oracross a Universal Serial Bus connection. Alternatively, the
+component 416 may correspond to identification of a specific ESH 470 and the media delivery system may reside within the
+process that converts the media data from its native format to same machine as software components. In this way, the media
+another format suitable for consumption by the target device delivery system 410 and the ESH 470 may share a common
+420. For example, a process may be called to convert the firewall or gateway architecture to the Internet.
+media data 425 from WMP to AAC. [0063] In one embodiment, the ESH 470 includes one or
+[0058] Image Sizing: The determination module 412 may more buffers that operate in conjunction with the user’s
+inspect media data 425 to determine whether image data 411 browser component 472, which could be, for example, a web
+is contained in the media data 425. If image data 411 is browser or a media player, to receive streaming media of
+contained, then the determination module 412 may use profile various types, sources and transmission size. The browser
+information 427 to determine if any size constraints exist for component 472 may be instructed to access network sites or
+the target that is to receive the media data. For example, locations as specified by the user’s request. Other user-initi-
+cellular phones have size limitations in their dimension and ated or programmatic instructions may be employed to cause
+screen resolution. The determination module 412 may size the browser component 472 to retrieve the specific desired
+the image data portion (sized image data 413) of the media media from the accessed site. For example, the browser com-
+data 425 in order to make the video or images of the media ponent 472 may be used to select a link to a specific radio
+data compatible with the display hardware of the target device station or television station on a web page of an accessed site,
+420. In addition to size limitations, some target devices may and on selection of the link, streaming media data may be
+have alternative size capabilities. For example, the device received by the web browser and directed to the ESH 470.
+may have an elongated display and alternative display mode Functions performed by the ESH 470 include receiving and
+operations where the device may be operated in a landscape buffering media streams 475 from external streaming media
+mode. The sizer 415 may accommodate the landscape set- sources 431, 433, and then moving streaming data 476 to the
+tings with the image data, even by extrapolating or stretching media delivery system 410. In one embodiment, the ESH 470
+image data. directs buffered media data 476 from one portion of a trans-
+[0059] The particular order that the processes are per- mission of media stream 475, concurrently while receiving
+formed are design implementations. It is also possible to transmission of another portion of the same media stream
+perform some or all of the processes of the individual com- 475. In one embodiment, ESH 470 operates in coordination
+ponents concurrently. with a browser component 476, such as a web browser or a
+[0060] For different media sources, the network enabled browser-enabled media player. The browser component is
+system 402 may include components to interface and handle used to access the network site from which the media stream
+interface with the media sources, handle media data from the is received.
+media resources, and even control the media sources. One or [0064] The media delivery system 410 performs the func-
+more application program interfaces 460 may be used to tions of converting and configuring the data in the media
+receive and connect to the different interfaces of the media streams 475 for transmission to the targets, as described
+sources. In one embodiment, a media library interface 433 above. The performance of the media delivery system 410 in
+may provide a programmatic mechanism for retrieving media the context of delivering media corresponding to external
+data from the media file system 432 in response to individual streaming media may be described with FIG. 5.
+requests of the user. Media library data 452 may be generated [0065] In step 510, streaming media data from the media
+form individual files in the media file system 432. Other streams 475 are buffered. While a streaming transmission is
+internal media sources, such as cable media source 436 or being received, step 520 provides that a set of characteristic
+satellite media source 434 may feed raw media data into a set about the media stream is identified. In an implementation
+top box or tuner 435. A connection may be established such as shown in FIG. 4, this step may be performed by
+between the tuner 435 of the respective satellite media source forwarding streaming data 476 to the determination module
+434 or cable media resource 436, and the interface 460 of the 412 while the transmission of the media stream 475 is ongo-
+media delivery system 410. A media feed 441 may be trans- ing.
+mitted across the connection as output of the tuner 435. The [0066] In step 530, the determination module 412 uses
+local media recorder 438 may also transmit recorded media profile information 427 to determine which of the processes
+feed (albeit of a different type) to the interface 460 of the of the media delivery system 410 are needed in order to make
+media delivery system 410. the streaming data 476 conform to the desired characteristics
+[0061] External Media Handling for the target. Accordingly, in step 540, a determination is
+[0062] Embodiments of the invention enable the media made as to whether the data type format of the streaming data
+delivery system, such as described in FIG. 4, to receive and 476 is compatible with or in accordance with the desired data
+transmit streaming media that comes from a media source type for the particular target.
+outside of the system 402. In an embodiment, external media [0067] Ifthe datatype of the external streaming data 476 is
+sources may be accessible to receive media data in the form of not a desired data type, the formatting component 416 may be
+streaming network transmissions. To handle such media data, used to convert the media stream 475 from its native format to
+an external stream handler (ESH) 470 may be used in con- the desired format in step 550. For example, some media sites
+junction with the media delivery system 410. In one imple- may provide streaming media in the form of WMP, while the
+mentation, the ESH 470 and the media delivery system 410 media player on the target device 420 is a REAL player
+may form locally interconnected components, or even reside requiring the data type to be of type RM. In response to
+within the same network enabled machine. As locally inter- determining the WMP format, the formatting component 416
+connected components, the ESH 470 and the media delivery identifies the correct conversion process to reformat the
+system 410 may communicate over a direct or local commu- media data. The formatting component 416 may include or

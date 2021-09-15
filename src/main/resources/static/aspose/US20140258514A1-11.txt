@@ -1,0 +1,7 @@
+US 2014/0258514 A1
+[0032] Another example of a user-defined network is a
+home network, in which a portal or gateway may be used to
+interconnect one or more computers with a user's home or
+space to a public network such as the Internet. According to
+embodiments described herein, a user's defined netw
+ ************* Trial Licenses ************* 

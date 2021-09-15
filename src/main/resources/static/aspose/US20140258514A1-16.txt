@@ -1,0 +1,6 @@
+communicates the network location of the device 610 to the
+media delivery system 615 within the user-defined network
+602, and the media delivery system within the user's network
+establishes a peer-to-peer connection with thetarget.Itis over
+the peer-to-peer connection that target data is transmitted
+ ************* Trial Licenses ************* 

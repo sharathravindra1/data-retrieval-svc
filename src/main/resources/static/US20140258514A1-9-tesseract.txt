@@ -1,0 +1,65 @@
+US 2014/0258514 Al Sep. 11,2014
+2
+templated, including media files (e.g. MP3 files), television component or a hardware component capable of performing
+media received through a set top box or stored in a digital one or more stated tasks or functions. As used herein, a
+video recorder, or streaming media. In response to receiving module can exist on a hardware component such as a server
+an instruction for delivery of media from a target device, independently of other modules, or a module can be a shared
+media source identified by the request may be identified and element or process of other modules, programs or machines.
+accessed. Media data from the source may be analyzed or A module may reside on one machine, such as on a client or
+inspected to determine its native characteristics. A profile for on a server, or a module may be distributed amongst multiple
+the target is accessed, and profile information is used to deter- machines, such as on multiple clients or server machines.
+mine desired characteristics for the generation of target data . .
+that is to correspond to the media. The target data is poncrated [0021] Furthermor ©, One Or more embodiments descr ibed
+from the media data or media source with the desired char- herein may be implemented through the use of structions
+acteristics. If native characteristics of the media data/source that are executable by one or more processors. These mstruc-
+are incompatible or otherwise different from the desired char- tions may be carried on a computer-r eadable medium.
+acteristics specified in the profile information, the target data Machines shown in figures below provide examples of pro-
+is generated to include the desired characteristics, and not the essing resources and computer-readable mediums on which
+native characteristics. The target data is then transmitted to structions for implementing embodiments of the invention
+the target. can be carried and/or executed. In particular, the numerous
+[0015] An embodiment such as described may be pet- machines shown with embodiments of the invention include
+formed programmatically, or as a computer-implemented processor(s) and various forms of memory for holding data
+method. Programmatically means through the use of code, or and instructions. Examples of computer-r cadable mediums
+computer-executable instructions. include permanent memory storage devices, such as hard
+[0016] A particular type of media source contemplated for drives on personal computers or servers. Other examples of
+use with one or more embodiments is a streaming media comput ores ediums inc Ee
+source, such as provided through a streaming media service ’ - :
+on the Internet, In one embodiment, the media source pro- ay cel Phones and personal digital assis teitts (Phas), ond
+vides a media stream over the Internet or other network. A a s (ce. 3 a ces such as cell phones) are all
+dia delivery sytem and che re described le samples of machines and dois that wie proceso
+puter, and then re-streamed to a target device in a form that is enon and instructions stored on computer-readable medi
+suitable for that target. As an example of an implementation
+of such an embodiment, a streaming video and/or audio feed [0022] FIG. 1 illustrates a system for delivering media to a
+may be received on a user’s media center, then re-streamed to target device, under an embodiment of the invention. A media
+a user’s designated target device. The target device may cor- delivery system 120 may be part of a user’s personal network
+respond to, for example, another computer, a cell phone, a or network enabled system. The media delivery system 120
+personal digital assistant, a laptop, a network-enabled audio enables the user to distribute a variety of different media that
+or media system for an automobile, or some other media is available from his or her defined network or network
+output device. enabled device to locations that are remote to his network
+[0017] Under an embodiment of the invention, the act of location. In particular, an embodiment enables the user to
+re-streaming the media stream may correspond to one or distribute media to one or more selected roaming devices.
+more of the following processes being performed: (i) the Roaming devices include devices that communicate on cel-
+media stream being reformatted from one data type or exten- lular networks, satellite networks, or which are portable and
+sion to another; (ii) a transmission size of the media stream can be connected to the Internet intermittingly. Furthermore,
+being reduced; and (iii) a display size of the media stream as described elsewhere in this document, the distribution may
+being re-sized. be made atthe request of the target. For example, the user may
+[0018] As will be described, the processes mentioned operate his own media player-enabled cellular phone to
+above may also be performed for media from sources other request music files from his connected media center (which
+than streaming sources. Furthermore, other processes may be ~~ May run on a desktop computer). Various types of media
+performed on data generated from the media source for pur- sources available to the home network or network user are
+pose of making the generated target data suitable for the target ~~ contemplated for this type of media distribution, including,
+device or location. for example, stored media files, live video captured by the
+[0019] The media sources may provide data having a par- user on his own connected video camera, streaming media
+ticular set of native characteristics. These native characteris- froman Internet streaming service, and television/audio cable
+tics may be different than desired characteristics for the target and satellite feeds.
+data, as specified in the profile information. In one embodi- [0023] In an embodiment, the media delivery system 120
+ment, target data is generated by reconfiguring or reformat- uses media source data 112 from one or more media sources
+ting data from the media sources so that the native character- 110 to deliver target data 116 to one or more targets 130. The
+istics are changed into the desired characteristics. However, it media delivery system 120 may access profile 125 to obtain
+is also possible for a result in which the characteristics of the target information 124. The target information 124 may dic-
+target data are identical to the native characteristics, meaning tate how data from the media source is to be configured in the
+the media data in its original form is suitable for the target, at generation of target data 116. As such, target data 116 is
+least according to the profile information. configured for the target 130, even though media source data
+[0020] One or more embodiments described herein may be 112 in its original form may not be suitable for the target. An
+implemented using modules. A module may include a pro- embodiment such as described enables any network enabled
+gram, a subroutine, a portion of a program, or a software device or location to receive target data 116 that is suited for
