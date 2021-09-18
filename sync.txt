@@ -1,0 +1,134 @@
+US 20140258514A1
+a9 United States
+a2) Patent Application Publication 0) Pub. No.: US 2014/0258514 Al
+Julia et al. 43) Pub. Date: Sep. 11, 2014
+(54) MEDIA DELIVERY SYSTEM AND METHOD which is a continuation-in-part of application No.
+FOR TRANSPORTING MEDIA TO DESIRED 10/888,745, filed on Jul. 9, 2004, now Pat. No. 7,937,
+TARGET DEVICES 484.
+(71) Applicant: QUALCOMM Incorporated, San (60) Provisional application No. 60/718,119, filed on Sep.
+Diego, CA (US) 16, 2005.
+(72) Inventors: Luc Julia, Emeryville, CA (US); Rafael Publication Classification
+Grundback, San Francisco, CA (Us CD Tat-CL
+Co ’ - HO4L 29/06 (2006.01)
+Maklouf Serghine, Oakland, CA (US);
+. . HO4L 12/26 (2006.01)
+Yohan Le Nerriec, San Francisco, CA
+(US) (52) US. CL
+CPC ......... HO4L 65/608 (2013.01); HO4L 43/0876
+(73) Assignee: QUALCOMM Incorporated, San (2013.01)
+Diego, CA (US) USPC ovine ennieneenne. 109/224
+(21) Appl. No.: 14/280,415 (57) ABSTRACT
+oo A media delivery system and technique are described to
+(22) Filed: May 16, 2014 enable a media stream to be received at one end on a user’s
+so computer, and then re-streamed to a target device in a form
+Related U.S. Application Data that is suitable for that target. As an example of an implemen-
+(63) Continuation of application No. 11/531,182, filed on tation of such an embodiment, a streaming video and/or audio
+Sep. 12, 2006, now Pat. No. 8,787,164, which is a feed may be received on a user’s media center, then
+continuation-in-part of application No. 10/888,606, re-streamed to a user’s designated target device. The target
+filed on Jul. 9, 2004, which is a continuation-in-part of device may correspond to, for example, another computer, a
+application No. 10/888,633, filed on Jul. 9, 2004, cell phone, or some other media output device.
+MEDIA TARGET DATA
+SOURCE DATA 16
+TT 112
+~ 7 IY
+{TN Net. CN [TC1..TCN]
+7
+A | / MEDIA yy "| MEDIADELIVERY | nr TARGET
+“( SOURCES } SYSTEM | 1 ise
+REQUEST
+—— 118
+TARGET ~~
+INFORMATION
+124
+TARGET
+INFORMATION
+125
+Patent Application Publication ~~ Sep. 11, 2014 Sheet 1 of 7 US 2014/0258514 A1
+MEDIA TARGET DATA
+SOURCE DATA 16
+PEN 112
+/ — aN . Net ON [TC1..TCN]
+\( MEDIA \ "| MEDIADELIVERY | RN
+“{ SOURCES )} J SYSTEM S > 130
+110 « , 120 No ye _—
+REQUEST
+— 118
+TARGET ~~
+INFORMATION
+124
+TARGET
+INFORMATION
+125
+Patent Application Publication ~~ Sep. 11, 2014 Sheet 2 of 7 US 2014/0258514 A1
+IDENTIFY MEDIA SOURCE
+210
+GENERATE TARGET DATA TO ENABLE MEDIA PRODUCTION AT TARGET
+220
+TRANSMIT TARGET DATA TO TARGET
+230
+Patent Application Publication ~~ Sep. 11, 2014 Sheet 3 of 7 US 2014/0258514 A1
+USER PROVIDES INFORMATION ABOUT TARGET DEVICE
+310
+ASSOCIATE PROFILE INFORMATION WITH TARGET DEVICE
+320
+ESTABLISH CONVERSION AND CONFIGURATION PROCESSES FOR
+SUBSEQUENT MEDIA DELIVERY TO TARGET DEVICE
+330
+RECEIVE REQUEST FOR DELIVERY OF MEDIA FROM MEDIA SOURCES TO
+TARGET DEVICE
+340
+ACCESS REQUESTED MEDIA SOURCES
+350
+IDENTIFY CHARACTERISTICS OF MEDIA DATA/SOURCE
+360
+GENERATE TARGET DATA USING NECESSARY CONVERSION/CONFIGURATION
+PROCESSES
+370
+TRANSMIT TARGET DATA TO DEVICE
+380
+Patent Application Publication ~~ Sep. 11, 2014 Sheet 4 of 7 US 2014/0258514 A1
+TARGET DEVICE NETWORK
+20 LOCATION
+== 422 404
+NETWORK(S)
+TARGET DATA TARGET DATA
+405 405
+SIZED
+IMAGE TRANSMISSION
+DATA I 418
+“3 | 1
+| | FORMAT USER/DEV-
+DISPLAY -- comp PROFILE
+| 416 426
+Se == MEDIA DELIVERY
+~~ | PROFILE SYSTEM
+IMAGE, - REDMCER INFORMATION 410
+1 31 421
+41 | DETERMINATION
+#2
+MEDIA DATA
+MEDIA LIBRARY # | TUNER tt
+LIBRARY Se | 8h 134
+DATA 452 CINT \ 434
+INTERFACE _ 460 MEDIA FEED \
+433 i aM \[ CABLE
+Tee 1 MEDIA
+EXT. MEDIA
+STREAN RECORDER 436
+476 a
+MEDIA FILE
+SYSTEM pot
+432 2
+BROWSER
+472 NETWORK ENABLED SYSTEM
+= 402
+MEDIA
+oo” STREAM
+475
+EXTERNAL
+STREAMING
+MEDIA SOURCES NTERNET
+INTERNET TELEVISION/RADIO
+lo. 433
+STREAMING SERVICE FIG. 4
+431

@@ -1,7 +1,0 @@
-US 2014/0258514 A1
-templated, including media files (e.g. MP3 files), television
-media received through a set top box or stored in a digital
-video recorder, or streaming media. In response to receiving
-an instruction for delivery of media from a target device,
-media source identified by the request 
- ************* Trial Licenses ************* 

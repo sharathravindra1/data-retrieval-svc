@@ -1,7 +1,0 @@
-US 2014/0258514 A1
-menting a conversion process on the media source data 112.
-In such a case, one or more of the resulting target character-
-istics 117 of the target data 116 may be different than the
-native characteristics 113 of the media source data 112. For
-example, one or more ofthe characteris
- ************* Trial Licenses ************* 

@@ -1,7 +1,0 @@
-US 2014/0258514 A1
-nication link, such as through a WiFi connection, over a LAN
-or across a Universal Serial Bus connection.Alternatively,the
-ESH 470 and the media delivery system may reside withinthe
-same machine as software components. Inthis way, the media
-delivery system 410 and the ESH 470 may 
- ************* Trial Licenses ************* 
