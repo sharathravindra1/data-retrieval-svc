@@ -32,9 +32,9 @@ This service listens to events from SQS for patent numbers and does the followin
 
 <a name="endpoints"></a>
 ## HealthChecks
-| Environments|Status |
-| :----| :---:|
-| [Local](http://localhost:8082/actuator/health) | [Manual](#localsetup)|
+| Environments| 
+| :----|
+| [Local](http://localhost:8082/actuator/health) |
 
 
 ## How to run this application locally
