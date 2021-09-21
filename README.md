@@ -1,7 +1,7 @@
 # Qualcomm 5g Data retrieval Svc
 Qualcomm - Data Rerieval Svc
 
-[![Build Status](http://localhost:8080/) ]
+[![Build Status](http://localhost:8080/job/data-retrieval-svc/) ]
 
 * [Description](#desc)
 * [Tools and Technologies](#tools)
@@ -34,7 +34,7 @@ This service listens to events from SQS for patent numbers and does the followin
 ## HealthChecks
 | Environments|Status |
 | :----| :---:|
-| [Local](http://localhost:8092/actuator/health) | [Manual](#localsetup)|
+| [Local](http://localhost:8082/actuator/health) | [Manual](#localsetup)|
 
 
 ## How to run this application locally
